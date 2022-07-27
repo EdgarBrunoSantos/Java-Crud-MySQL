@@ -26,7 +26,7 @@ public class FuncionarioDAO {
             pstm.execute();
             pstm.close();
         } catch (SQLException e) {
-            JOptionPane.showMessageDialog(null, "cadastrar" + e);
+            JOptionPane.showMessageDialog(null, "Erro ao cadastrar" + e);
         }
     }
 
@@ -50,4 +50,23 @@ public class FuncionarioDAO {
         }
         return lista;
     }
-}
+    public void alterarFuncionario(Funcionario funcionario){
+     String sql = "update funcionario set matricula=?,nome=?,cargo=? where id=?  ";
+        conn = new ConexaoDAO().conectar();
+        try {
+            pstm = conn.prepareStatement(sql);
+            pstm.setString(1, funcionario.getMatricula());
+            pstm.setString(2, funcionario.getNome());
+            pstm.setString(3, funcionario.getCargo());
+            pstm.setInt(4, funcionario.getId());
+           
+            pstm.executeUpdate();
+            pstm.close();
+        } catch (SQLException e) {
+            JOptionPane.showMessageDialog(null, "Erro na alterção" + e);
+        }
+    }
+
+    
+    }
+
