@@ -25,6 +25,7 @@ public class FuncionarioDAO {
             pstm.setString(3, funcionario.getCargo());
             pstm.execute();
             pstm.close();
+            JOptionPane.showMessageDialog(null, "Cadastrado com sucesso! ");
         } catch (SQLException e) {
             JOptionPane.showMessageDialog(null, "Erro ao cadastrar" + e);
         }
@@ -50,8 +51,9 @@ public class FuncionarioDAO {
         }
         return lista;
     }
-    public void alterarFuncionario(Funcionario funcionario){
-     String sql = "update funcionario set matricula=?,nome=?,cargo=? where id=?  ";
+
+    public void alterarFuncionario(Funcionario funcionario) {
+        String sql = "update funcionario set matricula=?,nome=?,cargo=? where id=?  ";
         conn = new ConexaoDAO().conectar();
         try {
             pstm = conn.prepareStatement(sql);
@@ -59,14 +61,27 @@ public class FuncionarioDAO {
             pstm.setString(2, funcionario.getNome());
             pstm.setString(3, funcionario.getCargo());
             pstm.setInt(4, funcionario.getId());
-           
+
             pstm.executeUpdate();
             pstm.close();
+            JOptionPane.showMessageDialog(null, "Alterado com sucesso! ");
         } catch (SQLException e) {
             JOptionPane.showMessageDialog(null, "Erro na alterção" + e);
         }
     }
 
-    
+    public void excluirFuncionario(Funcionario funcionario) {
+        String sql = "DELETE FROM funcionario WHERE id= ?";
+        conn = new ConexaoDAO().conectar();
+        try {
+            pstm = conn.prepareStatement(sql);
+            pstm.setInt(1, funcionario.getId());
+            pstm.execute();
+            pstm.close();
+            JOptionPane.showMessageDialog(null, "Excluido com sucesso! ");
+        } catch (SQLException e) {
+            JOptionPane.showMessageDialog(null, "Erro ao excluir ");
+        }
     }
 
+}
