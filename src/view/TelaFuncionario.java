@@ -315,7 +315,7 @@ public void listar() {
             }
 
         } catch (Exception e) {
-            JOptionPane.showConfirmDialog(null, "Erro listar");
+            JOptionPane.showMessageDialog(null, "Erro listar");
 
         }
     }
