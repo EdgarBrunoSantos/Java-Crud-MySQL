@@ -1,6 +1,8 @@
 # JAVA-CRUD-MYSQL
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/EdgarBrunoSantos/java-crud-mysql/blob/main/license) 
 
+![Animação](https://user-images.githubusercontent.com/109932073/185449283-3923c4e8-d499-40df-b6a8-8f64dedbabc6.gif)
+
 # Sobre o projeto
 
 Java-crud-mysql foi criado com o intuito de desenvolver conhecimento em uma estrutura muito usada no desenvolvimento que é o CRUD,relizado por um desafio da
@@ -15,15 +17,9 @@ utilizado que é o CRUD(created, read, update, delete).
 # Tecnologias utilizadas
 - Java
 - MySQL
-
-# Como executar o projeto
-
--Pré-requisitos:
--Java 11
--xampp MySQL
--IDE netbeans
--git 
-
+- Xampp MySQL
+- IDE netbeans
+- git/github
 
 # clonar repositório
 - crie uma pasta para salvar o projeto clone
@@ -38,8 +34,25 @@ utilizado que é o CRUD(created, read, update, delete).
 
 - Selecionar Open Project 
 
-- Selecionar pastar do projeto
+- Selecionar pasta do projeto
 
+# importando banco de dados 
+- link para arquivo SQL:[banco de dados](https://drive.google.com/file/d/1atPE45E6-RwBfz0cTYJJDxYuAWv0QpRO/view?usp=sharing)
+
+- utilizando a ferramenta phpMyAdmin contida dentro do xampp vamos importar o arquivo de criação do banco de dados
+
+ ![Captura de tela 2022-08-18 125310](https://user-images.githubusercontent.com/109932073/185439907-b23b23e8-5726-46d2-944f-552bb87babbd.png)
+
+- Após escolher o arquivo do download acima é so selecionar importar e o banco estará criado, é necessario manter o servidor xampp aberto para rodar a aplicação.
+
+# Rodando Aplicação
+
+
+![Captura de tela 2022-08-18 131810](https://user-images.githubusercontent.com/109932073/185445854-cac1741a-6518-4f15-b14a-31306f47f320.png)
+
+
+
+- Dentro da IDE Netbeans após abrir o projeto corretamente, va até o pacote VIEW clique com botao direito do mouse em  TelaFuncionário.java e selecione Run File
 
 # Autor
 
