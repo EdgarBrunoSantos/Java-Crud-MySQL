@@ -18,20 +18,28 @@ utilizado que é o CRUD(created, read, update, delete).
 
 # Como executar o projeto
 
-Pré-requisitos:
+-Pré-requisitos:
 -Java 11
--xamp MySQL
+-xampp MySQL
+-IDE netbeans
+-git 
 
-```bash
+
 # clonar repositório
-git clone https://github.com/EdgarBrunoSantos/java-crud-mysql
+- crie uma pasta para salvar o projeto clone
 
-# entrar na pasta do projeto back end
-cd backend
+- Abra o terminal do git dentro da pasta criada clicando com botão direito do mouse
 
-# executar o projeto
-./mvnw spring-boot:run
-```
+- Execute o comando: git clone https://github.com/EdgarBrunoSantos/java-crud-mysql
+
+# Abrindo projeto na IDE NetBeans
+
+- Dentro da IDE netbeans selecionar FILE
+
+- Selecionar Open Project 
+
+- Selecionar pastar do projeto
+
 
 # Autor
 
