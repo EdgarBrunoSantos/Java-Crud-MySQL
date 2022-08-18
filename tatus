@@ -1,0 +1,23 @@
+[33mcommit da461d9a1ce3745ec109bd4c3568bfea4f7d4acc[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: EdgarBrunoSantos <edgardevcap@gmail.com>
+Date:   Thu Aug 18 11:53:20 2022 -0300
+
+    Atualização de tela Funcionario
+
+[33mcommit d56e41152092cfe044aa972bd3fa55c9cb5a13f8[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: EdgarBrunoSantos <edgardevcap@gmail.com>
+Date:   Fri Jul 29 00:35:30 2022 -0300
+
+    Funcionalidade excluir criada
+
+[33mcommit 7b72336bdf188afa748d3d836f750aec0d51e534[m
+Author: EdgarBrunoSantos <edgardevcap@gmail.com>
+Date:   Wed Jul 27 20:16:41 2022 -0300
+
+    Funcionalidade alterarFuncionario
+
+[33mcommit f9d667a68ac1f184a55b34046043a5e887a148f7[m
+Author: EdgarBrunoSantos <edgardevcap@gmail.com>
+Date:   Wed Jul 27 13:46:44 2022 -0300
+
+    Funcionalidade cadastrar funcionario e listar funcionario
