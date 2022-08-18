@@ -1,7 +1,7 @@
 package DAO;
 
 import java.sql.Connection;
-import entidades.Funcionario;
+import DTO.Funcionario;
 import java.sql.PreparedStatement;
 import javax.swing.JOptionPane;
 import java.sql.ResultSet;

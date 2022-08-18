@@ -1,4 +1,4 @@
-package entidades;
+package DTO;
 
 public class Funcionario {
     private Integer id;

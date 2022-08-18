@@ -5,7 +5,7 @@
 package view;
 
 import DAO.FuncionarioDAO;
-import entidades.Funcionario;
+import DTO.Funcionario;
 import javax.swing.JOptionPane;
 import java.util.ArrayList;
 
@@ -125,8 +125,6 @@ public class TelaFuncionario extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setText("jLabel1");
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -204,7 +202,7 @@ public class TelaFuncionario extends javax.swing.JFrame {
                         .addComponent(lblId)
                         .addGap(18, 18, 18)
                         .addComponent(txtId, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(240, Short.MAX_VALUE))
+                        .addContainerGap(245, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                         .addGap(25, 25, 25))))
